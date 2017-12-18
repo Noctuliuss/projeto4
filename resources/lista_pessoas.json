@@ -1,8 +1,38 @@
 [
-    {
-        "nome": "Cesinha",
-        "id": 1,
-        "imagem":"https://raw.githubusercontent.com/Noctuliuss/projeto4/master/Imagens/cesinha.png"
-    }
+  {
+      "nome": "Brunão",
+      "id": 1,
+      "imagem":"https://raw.githubusercontent.com/Noctuliuss/projeto4/master/Imagens/brunao.jpg"
+  },
+  {
+      "nome": "Cesinha",
+      "id": 2,
+      "imagem":"https://raw.githubusercontent.com/Noctuliuss/projeto4/master/Imagens/cesinha.jpg"
+  },
+  {
+      "nome": "Diego",
+      "id": 3,
+      "imagem":"https://raw.githubusercontent.com/Noctuliuss/projeto4/master/Imagens/diego.png"
+  },
+  {
+      "nome": "Fabiao",
+      "id": 4,
+      "imagem":"https://raw.githubusercontent.com/Noctuliuss/projeto4/master/Imagens/fabiao.png"
+  },
+  {
+      "nome": "Gaucho",
+      "id": 5,
+      "imagem":"https://raw.githubusercontent.com/Noctuliuss/projeto4/master/Imagens/gaucho.png"
+  },
+  {
+      "nome": "Xaci",
+      "id": 6,
+      "imagem":"https://raw.githubusercontent.com/Noctuliuss/projeto4/master/Imagens/xaci.png"
+  },
+  {
+      "nome": "Yago",
+      "id": 7,
+      "imagem":"https://raw.githubusercontent.com/Noctuliuss/projeto4/master/Imagens/yago.png"
+  }
 
 ]
