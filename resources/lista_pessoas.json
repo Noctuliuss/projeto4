@@ -12,27 +12,27 @@
   {
       "nome": "Diego",
       "id": 3,
-      "imagem":"https://raw.githubusercontent.com/Noctuliuss/projeto4/master/Imagens/diego.png"
+      "imagem":"https://raw.githubusercontent.com/Noctuliuss/projeto4/master/Imagens/diego.jpg"
   },
   {
       "nome": "Fabiao",
       "id": 4,
-      "imagem":"https://raw.githubusercontent.com/Noctuliuss/projeto4/master/Imagens/fabiao.png"
+      "imagem":"https://raw.githubusercontent.com/Noctuliuss/projeto4/master/Imagens/fabiao.jpg"
   },
   {
       "nome": "Gaucho",
       "id": 5,
-      "imagem":"https://raw.githubusercontent.com/Noctuliuss/projeto4/master/Imagens/gaucho.png"
+      "imagem":"https://raw.githubusercontent.com/Noctuliuss/projeto4/master/Imagens/gaucho.jpg"
   },
   {
       "nome": "Xaci",
       "id": 6,
-      "imagem":"https://raw.githubusercontent.com/Noctuliuss/projeto4/master/Imagens/xaci.png"
+      "imagem":"https://raw.githubusercontent.com/Noctuliuss/projeto4/master/Imagens/xaci.jpg"
   },
   {
       "nome": "Yago",
       "id": 7,
-      "imagem":"https://raw.githubusercontent.com/Noctuliuss/projeto4/master/Imagens/yago.png"
+      "imagem":"https://raw.githubusercontent.com/Noctuliuss/projeto4/master/Imagens/yago.jpg"
   }
 
 ]
