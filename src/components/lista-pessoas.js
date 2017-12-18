@@ -33,23 +33,22 @@ class ListaPessoas extends Component {
               this.setState({ lista: data });
           }))
           .catch(error => {
-              // this.setState({ lista: [{ pessoa: 'Impossível carregar a lista' }] });
-              logger.console.error();
+              this.setState({ lista: [{ pessoa: 'Impossível carregar a lista' }] });
           });
 
   }
 }
 
-// const estilos = {
-//     imagemStyle: {
-//         height: 300,
-//         width: 300
-//
-//     },
-//     containerStyle: {
-//         alignItems: 'center',
-//         flexDirection: 'column'
-//     }
-// };
+const estilos = {
+    imagemStyle: {
+        height: 300,
+        width: 300
+
+    },
+    containerStyle: {
+        alignItems: 'center',
+        flexDirection: 'column'
+    }
+};
 
 export default ListaPessoas;
