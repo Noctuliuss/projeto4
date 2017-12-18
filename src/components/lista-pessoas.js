@@ -41,8 +41,8 @@ class ListaPessoas extends Component {
 
 const estilos = {
     imagemStyle: {
-        height: 300,
-        width: 300
+        height: 100,
+        width: 100
 
     },
     containerStyle: {
