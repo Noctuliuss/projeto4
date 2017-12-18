@@ -11,11 +11,10 @@ class ListaPessoas extends Component {
 
   renderPessoa() {
       const { imagemStyle, containerStyle } = estilos;
-      return this.state.lista.map(coisa =>
-          <View style={containerStyle} key={coisa.id}>
-              <Text>{coisa.produto}</Text>
-              <Image style={imagemStyle} source={{ uri: coisa.imagem }} />
-              <Button onPress={() => this.remove(coisa)}>Remover</Button>
+      return this.state.lista.map(pessoa =>
+          <View style={containerStyle} key={pessoa.id}>
+              <Text>{pessoa.nome}</Text>
+              <Image style={imagemStyle} source={{ uri: pessoa.imagem }} />
           </View>
       );
   }
@@ -29,12 +28,13 @@ class ListaPessoas extends Component {
   }
 
   carregaLista() {
-      fetch('https://raw.githubusercontent.com/munifgebara/reactnative/master/lista/lista.json')
+      fetch('https://raw.githubusercontent.com/Noctuliuss/projeto4/master/resources/lista_pessoas.json')
           .then(response => response.json().then(data => {
               this.setState({ lista: data });
           }))
           .catch(error => {
-              this.setState({ lista: [{ produto: 'Impossível carregar a lista' }] });
+              // this.setState({ lista: [{ pessoa: 'Impossível carregar a lista' }] });
+              logger.console.error();
           });
 
   }
@@ -52,4 +52,4 @@ class ListaPessoas extends Component {
 //     }
 // };
 
-export default ListaCoisas;
+export default ListaPessoas;
