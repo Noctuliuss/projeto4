@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, Image, ScrollView } from 'react-native';
+import { View, Text, Image, ScrollView, TouchableOpacity  } from 'react-native';
 
 class ListaPessoas extends Component {
 
@@ -14,9 +14,16 @@ class ListaPessoas extends Component {
       return this.state.lista.map(pessoa =>
           <View style={containerStyle} key={pessoa.id}>
               <Text>{pessoa.nome}</Text>
-              <Image style={imagemStyle} source={{ uri: pessoa.imagem }} />
+                <TouchableOpacity activeOpacity = { .8 } onPress={ ()=>{this.apagarPessoa(pessoa);} } >
+                    <Image style={imagemStyle} source={{ uri: pessoa.imagem }} onPress={()=>this.apagarPessoa()} />
+                </TouchableOpacity >
           </View>
       );
+  }
+
+  apagarPessoa(pessoa){
+    console.log("Imagem: " );
+    console.dir(pessoa);
   }
 
   render() {
